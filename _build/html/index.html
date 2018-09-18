@@ -1,0 +1,260 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh-CN" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-CN" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Sphinx 配置和使用 &mdash; Sphinx 配置和使用 1.0 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="基本语法" href="chapter0.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> Sphinx 配置和使用
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="chapter0.html">基本语法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapter1.html">进阶应用</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapter1.html#id4">附录</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Sphinx 配置和使用</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Sphinx 配置和使用</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sphinx">
+<h1>Sphinx 配置和使用<a class="headerlink" href="#sphinx" title="永久链接至标题">¶</a></h1>
+<p>Sphinx本意狮身人面像，在这里它是一个编写文档的工具，可以令人轻松的撰写出清晰且优美的文档。
+它基于reStructuredText(reST)语言，reST语言是一种轻量级的文本标记语言，为Python中Docutils项目的一部分。
+因此文档的源文件以.rst为后缀，Sphnix对reST语言进行了扩展，它负责把.rst源文件转化成易于阅读的htm
+l，pdf，epub，man等格式。它一开始为著名的Python语言开发者所采用，后来被越来越多的开发者们用于撰写软件文档，
+Linux内核开发者们也把目光投向了它。</p>
+<p>reST语言相对于过往的DocBook所采用的XML标记语言要简单和明了，就像在很多时候json格式渐渐取代了xml一样。这也是
+Sphinx日渐流行起来的原因。</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="chapter0.html">基本语法</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#directives">指令(Directives)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#paragraphs">段落(Paragraphs)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#id2">行内标记</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#bullet-lists">无序列表(Bullet lists)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#enumerated-lists">枚举列表(Enumerated lists)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#id3">表项多列显示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#id4">居中显示</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#id5">超链接</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#id7">内部链接</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#id8">引用图片</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#footnotes">脚注(Footnotes)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#citations">引用(Citations)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#substitutions">代用(Substitutions)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#comments">注释(Comments)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#admonitions">提示(Admonitions)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#reference">参考(Reference)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter0.html#glossary">术语表(Glossary)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapter1.html">进阶应用</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapter1.html#id2">图片和主题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="chapter1.html#id3">高级应用</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapter1.html#id4">附录</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="chapter1.html#id5">参考网站</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="chapter0.html" class="btn btn-neutral float-right" title="基本语法" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; 版权所有 2017, Red Liu.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            LANGUAGE:'zh_CN',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
