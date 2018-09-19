@@ -61,7 +61,7 @@ True   False  False
 ----------
 在文档中列出代码是开发人员经常用到的一个功能。在reST文档中列出代码有三种方式：
 
-行内代码用 ``code``。
+行内代码用使用两个反引号，例如 ``code``。
 
 .. code-block:: none                                             
     :linenos:
