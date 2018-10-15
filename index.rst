@@ -10,6 +10,8 @@ Linux内核开发者们也把目光投向了它。
 reST语言相对于过往的DocBook所采用的XML标记语言要简单和明了，就像在很多时候json格式渐渐取代了xml一样。这也是
 Sphinx日渐流行起来的原因。
 
+通过点击 `在readthedocs中显示当前文档 <https://sphinxdocs.readthedocs.io/en/latest/index.html>`_ 可以浏览该文档的最新版本。
+
 .. toctree::
   :maxdepth: 2
 
