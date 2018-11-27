@@ -3,6 +3,53 @@
 
 表格
 ----------
+
+列表表格
+~~~~~~~~~~
+
+列表表格是通过创建一组嵌套的列表来渲染成表格。
+
+父级列表是行，每一行的子列表是列，每行的列数必须一致，不支持合并单元格。header-rows 指定表格是否高亮标题栏。
+
+.. list-table::
+    :header-rows: 1
+
+    * - 1
+      - 2
+      - 3
+      - 4
+    * - 5
+      - 6
+      - 7
+      - 8
+    * -
+      -
+      - 9
+      -
+      
+.. code-block:: none
+  :linenos:
+  :lineno-start: 0
+
+  .. list-table::
+      :header-rows: 1
+  
+      * - 1
+        - 2
+        - 3
+        - 4
+      * - 5
+        - 6
+        - 7
+        - 8
+      * -
+        -
+        - 9
+        -
+        
+简单表格
+~~~~~~~~~~~~
+
 Sphinx支持两种表格形式：简单表格和对于格子表格。
 
 =====  =====  =======
@@ -25,7 +72,10 @@ True   False  False
   True   False  False
   =====  =====  =======
 
-网格表格要复杂，可以表示更具弹性的内容：
+网格表格
+~~~~~~~~~~
+
+网格表格要复杂，可以表示更具弹性的内容，手动创建复杂的表格很反锁，利用在线 reStructuredText 编辑器，或者使用编辑器插件，比如 sublime 或者 Eclipse。
 
 +------------------------+------------+----------+----------+   
 | Header row, column 1   | Header 2   | Header 3 | Header 4 |   
@@ -95,7 +145,9 @@ True   False  False
                 printf("i: %d\n", a);                               
         }
 
-复杂代码块 使用code-block指导语句，还可以选择列出行号和高亮重点行等                                            
+复杂代码块使用 code-block 指导语句，还可以选择列出行号和高亮重点行，\
+Python 使用 Pygments 作为插件实现代码高亮，在 conf.py 使用 ``pygments_style = 'sphinx'`` 设定。
+Pygments 插件 `支持语言列表 <http://pygments.org/languages/>`_，这里以 C 语言为例。                 
                                                                 
 .. code-block:: c                                               
     :linenos:                                                   
@@ -174,8 +226,10 @@ https://readthedocs.org 是一个第三方免费的文档托管网站，不仅�
 
 参考网站
 --------
-- Sphinx的中文文档：https://zh-sphinx-doc.readthedocs.io/en/latest/contents.html
-- reST: http://docutils.sourceforge.net/rst.html
-- Sphinx对reST的扩展： http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
-- Linux内核中Sphnix的应用：https://www.kernel.org/doc/html/latest/doc-guide/index.html
-- readthedocs：https://docs.readthedocs.io/en/latest/
+- `Sphinx的中文文档 <https://zh-sphinx-doc.readthedocs.io/en/latest/contents.html>`_
+- `reST docutils <http://docutils.sourceforge.net/rst.html>`_
+- `Sphinx对reST的扩展 <http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
+- `Linux内核中Sphnix的应用 <https://www.kernel.org/doc/html/latest/doc-guide/index.html>`_
+- `readthedocs <https://docs.readthedocs.io/en/latest/>`_
+- `用 reStructuredText 写作 <http://www.bary.com/doc/a/228277572381775842/#bffe4d29>`_
+  
