@@ -1,9 +1,9 @@
 # sphinxhowto
 
-±¾ÎÄ½éÉÜµ±Ç°×îÁ÷ÐÐµÄÈí¼þ¹¤³ÌÎÄµµÊéÐ´¹¤¾ß Sphinx¡£
+æœ¬æ–‡ä»‹ç»å½“å‰æœ€æµè¡Œçš„è½¯ä»¶å·¥ç¨‹æ–‡æ¡£ä¹¦å†™å·¥å…· Sphinxã€‚
 
-Sphinx±¾ÒâÊ¨ÉíÈËÃæÏñ£¬ÔÚÕâÀïËüÊÇÒ»¸ö±àÐ´ÎÄµµµÄ¹¤¾ß£¬¿ÉÒÔÁîÈËÇáËÉµÄ×«Ð´³öÇåÎúÇÒÓÅÃÀµÄÎÄµµ¡£ Ëü»ùÓÚreStructuredText(reST)ÓïÑÔ£¬reSTÓïÑÔÊÇÒ»ÖÖÇáÁ¿¼¶µÄÎÄ±¾±ê¼ÇÓïÑÔ£¬ÎªPythonÖÐDocutilsÏîÄ¿µÄÒ»²¿·Ö¡£ Òò´ËÎÄµµµÄÔ´ÎÄ¼þÒÔ.rstÎªºó×º£¬Sphnix¶ÔreSTÓïÑÔ½øÐÐÁËÀ©Õ¹£¬Ëü¸ºÔð°Ñ.rstÔ´ÎÄ¼þ×ª»¯³ÉÒ×ÓÚÔÄ¶ÁµÄhtml£¬pdf£¬epub£¬man µÈÄ¿±ê¸ñÊ½¡£ËüÒ»¿ªÊ¼ÎªÖøÃûµÄPythonÓïÑÔ¿ª·¢ÕßËù²ÉÓÃ£¬ºóÀ´±»Ô½À´Ô½¶àµÄ¿ª·¢ÕßÃÇÓÃÓÚ×«Ð´Èí¼þÎÄµµ£¬ LinuxÄÚºË¿ª·¢ÕßÃÇÒ²°ÑÄ¿¹âÍ¶ÏòÁËËü¡£
+Sphinxæœ¬æ„ç‹®èº«äººé¢åƒï¼Œåœ¨è¿™é‡Œå®ƒæ˜¯ä¸€ä¸ªç¼–å†™æ–‡æ¡£çš„å·¥å…·ï¼Œå¯ä»¥ä»¤äººè½»æ¾çš„æ’°å†™å‡ºæ¸…æ™°ä¸”ä¼˜ç¾Žçš„æ–‡æ¡£ã€‚ å®ƒåŸºäºŽreStructuredText(reST)è¯­è¨€ï¼ŒreSTè¯­è¨€æ˜¯ä¸€ç§è½»é‡çº§çš„æ–‡æœ¬æ ‡è®°è¯­è¨€ï¼Œä¸ºPythonä¸­Docutilsé¡¹ç›®çš„ä¸€éƒ¨åˆ†ã€‚ å› æ­¤æ–‡æ¡£çš„æºæ–‡ä»¶ä»¥.rstä¸ºåŽç¼€ï¼ŒSphnixå¯¹reSTè¯­è¨€è¿›è¡Œäº†æ‰©å±•ï¼Œå®ƒè´Ÿè´£æŠŠ.rstæºæ–‡ä»¶è½¬åŒ–æˆæ˜“äºŽé˜…è¯»çš„htmlï¼Œpdfï¼Œepubï¼Œman ç­‰ç›®æ ‡æ ¼å¼ã€‚å®ƒä¸€å¼€å§‹ä¸ºè‘—åçš„Pythonè¯­è¨€å¼€å‘è€…æ‰€é‡‡ç”¨ï¼ŒåŽæ¥è¢«è¶Šæ¥è¶Šå¤šçš„å¼€å‘è€…ä»¬ç”¨äºŽæ’°å†™è½¯ä»¶æ–‡æ¡£ï¼Œ Linuxå†…æ ¸å¼€å‘è€…ä»¬ä¹ŸæŠŠç›®å…‰æŠ•å‘äº†å®ƒã€‚
 
-reSTÓïÑÔÏà¶ÔÓÚ¹ýÍùµÄDocBookËù²ÉÓÃµÄXML±ê¼ÇÓïÑÔÒª¼òµ¥ºÍÃ÷ÁË£¬¾ÍÏñÔÚºÜ¶àÊ±ºòjson¸ñÊ½½¥½¥È¡´úÁËxmlÒ»Ñù¡£ÕâÒ²ÊÇ SphinxÈÕ½¥Á÷ÐÐÆðÀ´µÄÔ­Òò¡£
+reSTè¯­è¨€ç›¸å¯¹äºŽè¿‡å¾€çš„DocBookæ‰€é‡‡ç”¨çš„XMLæ ‡è®°è¯­è¨€è¦ç®€å•å’Œæ˜Žäº†ï¼Œå°±åƒåœ¨å¾ˆå¤šæ—¶å€™jsonæ ¼å¼æ¸æ¸å–ä»£äº†xmlä¸€æ ·ã€‚è¿™ä¹Ÿæ˜¯ Sphinxæ—¥æ¸æµè¡Œèµ·æ¥çš„åŽŸå› ã€‚
 
-Í¨¹ýµã»÷ [ÔÚreadthedocsÖÐÏÔÊ¾µ±Ç°ÎÄµµ](https://sphinxdocs.readthedocs.io/en/latest/index.html) ¿ÉÒÔä¯ÀÀ¸ÃÎÄµµµÄ×îÐÂ°æ±¾¡£
+é€šè¿‡ç‚¹å‡» [åœ¨readthedocsä¸­æ˜¾ç¤ºå½“å‰æ–‡æ¡£](https://sphinxdocs.readthedocs.io/en/latest/index.html) å¯ä»¥æµè§ˆè¯¥æ–‡æ¡£çš„æœ€æ–°ç‰ˆæœ¬ã€‚
