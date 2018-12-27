@@ -228,6 +228,7 @@ https://readthedocs.org 是一个第三方免费的文档托管网站，不仅�
 --------
 - `Sphinx的中文文档 <https://zh-sphinx-doc.readthedocs.io/en/latest/contents.html>`_
 - `reST docutils <http://docutils.sourceforge.net/rst.html>`_
+- `reST语法快速参考 <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_
 - `Sphinx对reST的扩展 <http://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 - `Linux内核中Sphnix的应用 <https://www.kernel.org/doc/html/latest/doc-guide/index.html>`_
 - `readthedocs <https://docs.readthedocs.io/en/latest/>`_
