@@ -208,6 +208,32 @@ Pygments 插件 `支持语言列表 <http://pygments.org/languages/>`_，这里�
 
 figure指令不支持图片自动编号。Sphinx没有提供该功能，需要自己扩展。
 
+使用数学公式
+----------------
+
+编辑 conf.py，在 extensions 字段添加 sphinx.ext.mathjax。
+
+在 math 标签中使用 Latex 语法编写公式，参考 `Latex90min <http://www.mohu.org/info/lshort-cn.pdf>`_ 。
+
+.. code-block:: none
+  :linenos:
+  :lineno-start: 0
+  
+  extensions = ['sphinx.ext.mathjax']
+
+
+.. math::
+
+  \ P(X=a|Y=b)=\frac{P(X=a,Y=b)}{P(Y=b)}
+
+.. code-block:: none
+  :linenos:
+  :lineno-start: 0
+  
+  .. math::
+
+    \ P(X=a|Y=b)=\frac{P(X=a,Y=b)}{P(Y=b)}
+
 借用Linux内核中的扩展
 ----------------------
 Linux内核中的Documentation部分对Sphinx进项了扩展，提供了更多好用的标签，借用Linux内核来生成自己的文档，效果非常好，它特别针对源码注释生成文档进行了优化。
